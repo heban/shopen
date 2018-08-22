@@ -1,0 +1,68 @@
+<div id="page-top">
+	<div id="menu-top">
+		<div class="menu-item" id="shoppingList">
+			<div class="item">
+				<span class="icon-shopping-cart"></span>
+			</div>
+		</div>
+		<div class="menu-item" id="buyedList">
+			<div class="item">
+				<span class="icon-ok"></span>
+			</div>
+		</div>
+		<div class="menu-item" id="categoryList">
+			<div class="item">
+				<span class="icon-tags"></span>
+			</div>
+		</div>
+		<div class="side-item high">
+			<div class="s-item" id="options">
+				<span class="icon-cog"></span>
+			</div>
+		</div>
+	</div>
+	<div class="submenu">
+		<h1>New product</h1>
+		<a href="#" class="alertify-button alertify-button-ok" id="saveProduct"><span class="icon-pencil"></span> Save product</a>
+	</div>
+</div>
+<div data-bb-type="screen" id="lol" data-bb-effect="fade" data-bb-indicator="true">
+	<div id="form-container">
+		<div data-bb-type="round-panel"> 
+      		<div data-bb-type="panel-header">Adding new product</div>
+          	<div data-bb-type="label" class="label">Name:<span class="red">*</span></div>
+          	<input type="text" id="prodName" value="" placeholder="example: Eggs" />
+
+			<div data-bb-type="label" class="label">Category:<span class="red">*</span></div>
+          	<select data-bb-style="stretch" id="prodCategories">
+	        	<option value="0" selected="true">Uncategorized</option>
+        	</select>
+      	</div>
+      	<div data-bb-type="round-panel"> 
+      		<div data-bb-type="panel-header">Optional informations</div>
+          	<div data-bb-type="label" class="label">Note:</div>
+          	<input type="text" id="prodDesc" value="" placeholder="example: three eggs" />
+
+          	<div class="units">
+          		<div class="left-unit">
+		          	<div data-bb-type="label" class="label">Quantity:</div>
+		          	<input type="number" id="prodQuantity" placeholder="1" />
+		        </div>
+		        <div class="center-unit">
+		          	<div data-bb-type="label" class="label">Unit:</div>
+		          	<input type="text" id="prodUnits" placeholder="kg" value="" />
+		        </div>
+		        <div class="right-unit">
+		          	<div data-bb-type="label" class="label">Prize:</div>
+          			<input type="text" id="prodPrize" value="" placeholder="1$" />
+		        </div>
+          	</div>
+
+          	<div data-bb-type="label" class="label">Priority:</div>
+			<select data-bb-style="stretch" id="prodPriority">
+	        	<option value="2" selected="true">normal</option>
+	        	<option value="1">high</option>
+        	</select>
+      	</div>
+  	</div>
+</div>

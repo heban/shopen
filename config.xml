@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.0" id="shopen">  
+    <name>Shopen</name>
+    <author href="http://www.pawelochota.pl/">Pawel Ochota</author>
+    <description>Simple, elegant shopping list</description>
+    <content src="index.html"/>
+    <icon src="images/icon.png"/>
+	<rim:splash src="images/splash-768x1280.png"/>
+	<feature id="blackberry.system.event" />
+  	<feature id="blackberry.app" />   
+</widget>
